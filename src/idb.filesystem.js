@@ -983,6 +983,7 @@ exports.addEventListener('beforeunload', function(e) {
 
 //exports.idb = idb_;
 exports.requestFileSystem = requestFileSystem;
+exports.requestFileSystem.polyfill = true;
 exports.resolveLocalFileSystemURL = resolveLocalFileSystemURL;
 
 // Export more stuff (to window) for unit tests to do their thing.
