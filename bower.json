@@ -1,0 +1,27 @@
+{
+  "name": "idb.filesystem.js",
+  "homepage": "https://github.com/ebidel/idb.filesystem.js",
+  "authors": [
+    "Eric Bidelman <ebidel@gmail.com>"
+  ],
+  "description": "A JavaScript polyfill implementation of the HTML5 Filesystem API using IndexedDB.",
+  "main": "src/idb.filesystem.js",
+  "license": "Apache-2.0",
+  "ignore": [
+    "**/.*",
+    "build",
+    "node_modules",
+    "bower_components",
+    "git-hooks",
+    "test",
+    "testing",
+    ".editorconfig",
+    ".gitignore",
+    ".npmignore",
+    ".jshintrc",
+    ".travis.yml",
+    "Gruntfile.js",
+    "jsdoc-conf.json",
+    "postinstall.sh"
+  ]
+}
